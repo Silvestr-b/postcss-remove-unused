@@ -1,6 +1,6 @@
 # PostCSS Remove unused [![Build Status][ci-img]][ci]
 
-[PostCSS] This plugin remove CSS rules that are not contained in JSON like: { "className": "newName" } 
+[PostCSS] This plugin remove CSS rules that are not contained in JSON like: ['.button', '.someSelector'] 
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/Silvestr-b/postcss-remove-unused.svg
