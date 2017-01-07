@@ -1,0 +1,32 @@
+{
+  "name": "postcss-remove-unused",
+  "version": "0.1.0",
+  "description": "This plugin remove CSS rules that are not contained in JSON like: { \"className\": \"newName\" }",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "bem",
+    "bem-classes",
+    "css",
+    "optimization"
+  ],
+  "author": "Silvestr Baibuz <silvestr-b@yandex.ru>",
+  "license": "MIT",
+  "repository": "Silvestr-b/postcss-remove-unused",
+  "bugs": {
+    "url": "https://github.com/Silvestr-b/postcss-remove-unused/issues"
+  },
+  "homepage": "https://github.com/Silvestr-b/postcss-remove-unused",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "postcss": "^5.2.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
